@@ -6,4 +6,9 @@ dependencies {
 
     implementation 'org.spongepowered:mixin:0.8.5'
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    implementation(project(":Registrate"))
+    jarJar(api(project(":Registrate")))
+    implementation(project(":TcLib"))
+    jarJar(api(project(":TcLib")))
 }
