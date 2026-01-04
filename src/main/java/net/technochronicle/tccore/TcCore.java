@@ -1,7 +1,9 @@
 package net.technochronicle.tccore;
 
+import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 
+import lombok.Getter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -10,4 +12,7 @@ public class TcCore {
 
     public static final String MOD_ID = "tccore";
     public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
+
+    @Getter
+    private static IEventBus modEventBus;
 }

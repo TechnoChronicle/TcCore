@@ -4,6 +4,9 @@
   "package": "net.technochronicle.tccore.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "neoforge.MappedRegistryAccess",
+    "neoforge.MappedRegistryMixin",
+    "neoforge.ResourceKeyAccessor"
   ],
   "client": [
   ],

@@ -1,5 +1,7 @@
 #Organize Import Order
 #Sat May 27 02:13:47 CDT 2023
+0=net.technochronicle.tclib
+0=net.technochronicle.tccore
 1=net
 2=
 3=java
