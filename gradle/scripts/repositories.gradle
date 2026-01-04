@@ -17,4 +17,24 @@ repositories {
         name = 'Kotlin for Forge'
         url = 'https://thedarkcolour.github.io/KotlinForForge/'
     }
+    maven {
+        name = "LDLib2"
+        url = "https://maven.firstdark.dev/snapshots"
+    }
+    maven {
+        name = 'GuideME Snapshots'
+        url = 'https://central.sonatype.com/repository/maven-snapshots/'
+        content {
+            includeModule('org.appliedenergistics', 'guideme')
+        }
+    }
+    maven {
+        name = "Mod Menu, EMI"
+        url = "https://maven.terraformersmc.com/releases/"
+    }
+    maven {
+        // location of the maven that hosts JEI files since January 2023
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    }
 }
